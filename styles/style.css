@@ -1,0 +1,54 @@
+.custom-bg-color {
+    background-color: #FEEAE9;
+}
+
+.custom-input {
+    border-right: none;
+    border-top: 1px solid rgb(216, 207, 207);
+    border-left: 1px solid rgb(216, 207, 207);
+    border-bottom: 1px solid rgb(216, 207, 207);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.custom-btn {
+    border-radius: 0px 5px 5px 0px;
+    border-top: 1px solid rgb(216, 207, 207);
+    border-right: 1px solid rgb(216, 207, 207);
+    border-bottom: 1px solid rgb(216, 207, 207);
+    border-left: none;
+}
+
+.custom-btn:hover {
+    background-color: rgb(247, 139, 216);
+}
+
+.custom-btn:focus {
+    box-shadow: none;
+    border: 1px solid rgb(37, 37, 99);
+}
+
+.custom-btn i {
+    color: gray;
+}
+
+.custom-input:focus {
+    box-shadow: none;
+    border: 1px solid green;
+}
+
+.card-body h2 {
+    color: #FF136F;
+}
+
+.card-body .button a {
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border: none;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:576px)
+{
+    .text-width {
+        width: 100%;
+    }
+} 
